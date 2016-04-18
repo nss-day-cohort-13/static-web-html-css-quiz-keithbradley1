@@ -1,0 +1,93 @@
+.full-page {
+	background-color: #fff;
+	border: 1px solid #73AD21;
+ 	font-family: Helvetica, arial, san-serif;
+}
+
+.clear-fix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.page-title {
+	text-align: center;
+	padding: 1%;
+	margin: .85%;
+	border: 1px solid lightblue;
+}
+
+.card {
+	max-width: 30%;
+	padding: 1%;
+	border: 1px solid lightblue;
+	margin: 0 0 0 .85%;
+	float: left;
+}
+
+.card-title {
+	text-align: center;
+	border: 1px dotted lightgray;
+
+}
+
+.card-product {
+   margin: auto;
+   display: block;
+   text-align: justify;
+}
+.card-specs {
+	font-size: .75em;
+	text-align: justify;
+	line-height: .5;
+	font-weight: bold;
+}
+.footer {
+	font-size: .5em;
+	line-height: .3;
+	font-weight: bold;
+
+}
+
+.pic {
+	max-width: 150px;
+	height: 125px;
+	margin: auto;
+	display: block;
+}
+
+.pricing-header {
+	line-height: .5;
+	font-weight: bold;
+}
+
+.pricing {
+	display: inline-block;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+.card-available {
+	background-color: grey;
+	display: block;
+	text-align: center;
+}
+
+/*
+
+The entire card has a solid 1px border that is lightblue.
+The card title has a dotted 1px border that is lightgray.
+The title and product image are centered.
+Notice that the text for the description in the image is justified.
+The text for the product specification details and pricing details is bold.
+The availability element extends the full width of the card, with a dark grey background and yellow text. -->  */
+
+
+
+
+
+
+
+
+
+
