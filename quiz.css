@@ -68,9 +68,10 @@
 }
 
 .card-available {
-	background-color: grey;
+	background-color: darkgrey;
 	display: block;
-	text-align: center;
+	text-align: left;
+	color: yellow;
 }
 
 /*
